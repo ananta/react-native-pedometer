@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "react-native-pedometer": ["../src/index"],
+      "react-native-pedometer/*": ["../src/*"]
+    }
+  }
+}
